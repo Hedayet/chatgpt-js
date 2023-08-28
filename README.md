@@ -1,4 +1,4 @@
-```markdown
+
 # ChatGPT-JS
 
 ChatGPT-JS is a simple JavaScript application that interacts with the OpenAI GPT-3.5 API for text generation. It allows you to have conversations with the AI model through a Node.js script.
@@ -47,4 +47,4 @@ Upon running the application, you can engage in conversations with the AI model.
 ## License
 
 This project is licensed under the GNU General Public License - see the [LICENSE](LICENSE) file for details.
-```
+
