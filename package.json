@@ -1,0 +1,9 @@
+{
+  "name": "chatgpt-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.3.0"
+  }
+}
