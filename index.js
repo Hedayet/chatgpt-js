@@ -1,13 +1,15 @@
 const OpenAI = require("openai");
+const { env } = require("process");
 const readline = require("readline");
 
 const openaiClient = new OpenAI({
   // get your org id from here: https://platform.openai.com/account/org-settings
-  organization: ${secrets.OPENAI_ORG},
+  organization: env.OPENAI_ORG_ID,
   // Get your API key from here - https://platform.openai.com/account/api-keys
-  apiKey: ${secrets.OPENAI_API_KEY}},
+  apiKey: env.OPENAI_API_KEY,
 });
 const OPENAI_MODEL = "gpt-3.5-turbo";
+
 let messages = [
   {
     role: "system",
